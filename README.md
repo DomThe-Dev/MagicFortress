@@ -28,4 +28,4 @@ If in need of contacting me, you can see my socials on my GitHub page, or just s
 
 If in need of contacting a team member, their contact information will be posted at a later date. Until then, message me through GitHub, or some other means, and I will try and help get you in contact with them.
 
-Dom's is a nerd!
+No I'm not

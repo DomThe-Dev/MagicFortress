@@ -6,13 +6,14 @@ using UnityEngine.SceneManagement;
 
 public class StartGame : MonoBehaviour
 {
-    public Button StartButton, QuitButton, m_YourThirdButton;
+    public Button StartButton, QuitButton, OptionsButton;
 
     // Start is called before the first frame update
     void Start()
     {
         StartButton.onClick.AddListener(StartClicked);
         QuitButton.onClick.AddListener(QuitClicked);
+        OptionsButton.onClick.AddListener(OptionsClicked);
     }
 
     // Update is called once per frame
@@ -35,5 +36,12 @@ public class StartGame : MonoBehaviour
         // Debug.Log("Game Exited");
 
         Application.Quit();
+    }
+
+    void OptionsClicked()
+    {
+        // Load Options Scene
+
+        SceneManager.LoadScene("OptionsScene");
     }
 }
